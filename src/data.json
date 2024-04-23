@@ -1,0 +1,32 @@
+{
+    "nav":[
+        {
+            "id":1,
+            "logo":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713809230/cvcrpzxfd3e71n9u7vcr.png"
+        },
+        {
+            "id":2,
+            "dashbord_icon":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713810503/hx2pp6un9bw4dzqm5od0.svg"
+        },
+        {
+            "id":3,
+            "export_icon":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713810728/jagajxiwt4aieuw26ay9.svg"
+        },
+        {
+            "id":4,
+            "wallet_icon":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713811038/fzcg2lhzpgadatnsddsj.svg"
+        },
+        {
+            "id":5,
+            "setting_icon":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713811120/j0kfad7ch6orck9i0hh0.svg"
+        },
+        {
+            "id":6,
+            "account_icon":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713811162/sbolmmujppoimtmw2chx.svg"
+        },
+        {
+            "id":7,
+            "mode_icon":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713813855/d1z0msxrtqeysq91tpwo.svg"
+        }
+    ]
+}
