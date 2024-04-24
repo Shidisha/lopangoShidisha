@@ -1,7 +1,8 @@
+
 const Profil = () => {
     return(
         <>
-            <img src="#" alt="profile photo" />
+            <h3>Votre page de profil</h3>
         </>
     )
 }

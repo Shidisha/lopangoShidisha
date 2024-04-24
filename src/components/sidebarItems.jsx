@@ -1,6 +1,6 @@
 
 
-const SideBarItems = ({icon}) =>{
+const SideBarItems = () =>{
     return(
         <div>
             <span>{}</span>
