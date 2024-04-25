@@ -5,7 +5,7 @@ import SideBarMenu from "./sidebar_menu"
 const SideBar = () =>{
 
     return(
-        <div className=" py-2 pl-16">
+        <div className=" py-1">
           <SideBarMenu/>
         </div>
     )

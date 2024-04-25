@@ -50,5 +50,11 @@
         "compte" : "https://res.cloudinary.com/dheib2lbf/image/upload/v1713811162/sbolmmujppoimtmw2chx.svg",
         "text": "Compte"
     }
+    ],
+    "sectionHero":[
+        {
+            "id":1,
+            "imageHero":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713829912/xvnmvxtnkppqzao0apde.jpg"
+        }
     ]
 }
