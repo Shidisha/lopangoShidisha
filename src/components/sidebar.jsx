@@ -1,17 +1,12 @@
-import data from '../data.json'
+import SideBarMenu from "./sidebar_menu"
+
 
 
 const SideBar = () =>{
-    const items = data.sideBars
+
     return(
-        <div>
-            <ul>
-                {items.map(item =>(
-                    <item key={item.id}
-                        icon = {item.icon}
-                    />
-                ))}
-            </ul>
+        <div className=" py-2 pl-16">
+          <SideBarMenu/>
         </div>
     )
 }

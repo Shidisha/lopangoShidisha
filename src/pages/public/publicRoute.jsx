@@ -18,6 +18,7 @@ const PublicRoute = () =>{
                   <Route path='/reservation' element={<Reservation/>}/>
                   <Route path='/parametre' element={<Parametre/>}/>
                   <Route path='/profil' element={<Profil/>}/>
+
                   <Route path ='*' element ={<NotFound/>}/>
               </Route>
             </Routes>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Header = () =>{
     return(
-            <nav className=' flex justify-between items-center py-2 pl-8 pr-8'>
+            <nav className=' flex justify-between items-center py-2 pl-16 pr-16 border-b-2'>
                  <div className=' flex gap-20'>
                       <Link to="/home"><img className=' w-18 h-10' src={data.nav[0].logo} alt="logo application" /></Link>
                       <input className=' py-1 pl-2 pr-2 pb-1' type="text" placeholder="Rechercher des propriétés" />
