@@ -1,3 +1,4 @@
+import ButtonSearch from "./button_search"
 import SelectCity from "./select_city"
 import SelectCommon from "./select_common"
 import SelectSwitch from "./select_switch"
@@ -19,6 +20,7 @@ const SectionSearch = () =>{
                 <SelectCommon/>
                 <SelectTypeProrety/>
                 <SelectPrice/>
+                <ButtonSearch/>
             </div>
         </div>
     )

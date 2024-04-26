@@ -1,15 +1,11 @@
 import './App.css'
-import { BrowserRouter } from 'react-router-dom'
-import PublicRoute from './pages/public/publicRoute'
-
+import Layout from './pages/public/layout'
 
 
 function App() {
   return (
     <>
-    <BrowserRouter>
-        <PublicRoute/>
-    </BrowserRouter>
+      <Layout/>
     </>
   )
 }

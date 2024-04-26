@@ -14,7 +14,7 @@ const Header = () =>{
                        <DashbordMenu/>
                  </div>
                  <div>
-                       <a href="#"><img className=' w-10' src={data.nav[6].mode_icon} alt="dashboard" /></a>
+                       <a href="#"><img className=' w-8' src={data.nav[6].mode_icon} alt="dashboard" /></a>
                  </div>
 
             </nav>
