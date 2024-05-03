@@ -28,7 +28,7 @@ const router = createBrowserRouter([
             element: <AllProprety/>
           },
           {
-            path:'/popular_menu',
+            path:'/popular_proprety',
             element: <PopularProrety/>
           },
           {

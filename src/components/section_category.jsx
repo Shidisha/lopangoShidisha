@@ -1,9 +1,11 @@
+import { Outlet } from "react-router-dom"
 import CategoryMenu from "./category_menu"
 
 const SectionCategory = () =>{
     return (
-        <div>
+        <div className=" pt-2">
             <CategoryMenu/>
+            <Outlet/>
         </div>
     )
 }
