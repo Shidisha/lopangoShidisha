@@ -9,6 +9,10 @@ import Reservation from './pages/public/reservation.jsx'
 import Parametre from './pages/public/parametre.jsx'
 import Profil from './pages/public/profil.jsx'
 import NotFound from './utils/not_Found.jsx'
+import AllProprety from './components/all_proprety.jsx'
+import PopularProrety from './components/popular_prorety.jsx'
+import RecommendedProprety from './components/recommended_proprety.jsx'
+import NeardYou from './components/neard_you.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,8 +20,26 @@ const router = createBrowserRouter([
     element: <App/>,
     children: [
       {
-        path: '/home',
-        element: <Home/>
+        path: '/',
+        element: <Home/>, 
+        children : [
+          {
+            path:'/all_proprety',
+            element: <AllProprety/>
+          },
+          {
+            path:'/popular_menu',
+            element: <PopularProrety/>
+          },
+          {
+            path:'/recommended_proprety',
+            element: <RecommendedProprety/>
+          },
+          {
+            path:'/neard_you',
+            element: <NeardYou/>
+          }
+        ]
       },  
       {
         path:'/explore',
