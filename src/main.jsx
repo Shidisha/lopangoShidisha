@@ -6,14 +6,17 @@ import {RouterProvider, createBrowserRouter} from 'react-router-dom'
 import Home from './pages/public/home.jsx'
 import Explore from './pages/public/explore.jsx'
 import Reservation from './pages/public/reservation.jsx'
-import Parametre from './pages/public/parameter.jsx'
+import Parametre from './pages/public/parametre.jsx'
+import Profil from './pages/public/profil.jsx'
+import NotFound from './utils/not_Found.jsx'
+
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App/>,
     children: [
       {
-        path: '/',
+        path: '/home',
         element: <Home/>
       },  
       {
@@ -25,8 +28,16 @@ const router = createBrowserRouter([
         element: <Reservation/>
       },
       {
-        path: '/Parameter',
+        path: '/Parametre',
         element: <Parametre/>
+      },
+      {
+        path: '/profil',
+        element: <Profil/>
+      },
+      {
+        path: '*',
+        element: <NotFound/>
       }
       
     ]

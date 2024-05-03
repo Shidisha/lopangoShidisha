@@ -18,6 +18,7 @@ const SelectCommon = () => {
                 <option value="option3">Lemba</option>
                 <option value="option3">Mont-ngafula</option>
                 <option value="option3">Matete</option>
+                <option value="option3">Gombe</option>
              </select>
         </>
     )

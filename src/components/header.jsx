@@ -16,7 +16,6 @@ const Header = () =>{
                  <div>
                        <a href="#"><img className=' w-8' src={data.nav[6].mode_icon} alt="dashboard" /></a>
                  </div>
-
             </nav>
              
     )

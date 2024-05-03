@@ -1,3 +1,4 @@
+import Account from "./account"
 import SideBarMenu from "./sidebar_menu"
 
 
@@ -5,9 +6,14 @@ import SideBarMenu from "./sidebar_menu"
 const SideBar = () =>{
 
     return(
-        <div className=" w-1/5 border-r-2 px-2 py-1">
-          <SideBarMenu/>
+      <div className=" flex flex-col gap-48">
+        <div className=" w-[200px] border-r-2 px-2 py-1">
+            <SideBarMenu/>
         </div>
+        <div className="">
+            <Account/>
+        </div>
+       </div>
     )
 }
 

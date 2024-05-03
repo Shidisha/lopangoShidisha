@@ -2,7 +2,8 @@ import data from '../data.json'
 const Proprety = () =>{
     return(
         <div>
-            <img src={data.sectionHero[0].imageHero} alt="" />
+            <img className=' w-40 h-40 rounded-xl' src={data.proprety[0].imageProprety} alt=""/>
+            <span className=' flex'>Bandal/Appartement</span>
         </div>
     )
 }

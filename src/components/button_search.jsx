@@ -1,7 +1,7 @@
 const ButtonSearch = () =>{
     return(
         <>
-            <button className=" border rounded-s-full rounded-r-full">RECHERCHER</button>
+            <button className="border border-black rounded-full px-1 py-2">RECHERCHER</button>
         </>
     )
 }
