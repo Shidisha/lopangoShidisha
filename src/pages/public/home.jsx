@@ -4,6 +4,7 @@ import Sidebar from '../../components/sidebar'
 import SectionHero from '../../components/section_hero'
 import SectionSearch from '../../components/section_search'
 import SectionHeart from '../../components/section_Heart'
+import SectionCategory from '../../components/section_category'
 
 const Home = () =>{
     return (
@@ -15,6 +16,7 @@ const Home = () =>{
                         <SectionHero/>
                         <SectionSearch/>
                         <SectionHeart/>
+                        <SectionCategory/>
                     </section>
              </main>
         </div>

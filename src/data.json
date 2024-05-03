@@ -70,6 +70,7 @@
         {
             "id":1,
             "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
+            "city":"Kinshasa",
             "Commone":"Lingwala",
             "typePropriety": "Parccelle",
             "price": 50000
@@ -77,6 +78,7 @@
         {
             "id":2,
             "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332802/rpd9aobrhbla7hxbfxu3.jpg",
+            "city":"Kinshasa",
             "Commone":"Lingwala",
             "typePropriety": "Maison",
             "price": 200
@@ -84,6 +86,7 @@
         {
             "id":3,
             "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
+            "city":"Kinshasa",
             "Commone":"Lingwala",
             "typePropriety": "Parccelle",
             "price": 50000
@@ -91,37 +94,11 @@
         {
             "id":4,
             "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
-            "Commone":"Lingwala",
-            "typePropriety": "Parccelle",
-            "price": 50000
-        },
-        {
-            "id":5,
-            "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
-            "Commone":"Lingwala",
-            "typePropriety": "Parccelle",
-            "price": 50000
-        },
-        {
-            "id":6,
-            "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
-            "Commone":"Lingwala",
-            "typePropriety": "Parccelle",
-            "price": 50000
-        },
-        {
-            "id":7,
-            "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
-            "Commone":"Lingwala",
-            "typePropriety": "Parccelle",
-            "price": 50000
-        },
-        {
-            "id":8,
-            "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
+            "city":"Kinshasa",
             "Commone":"Lingwala",
             "typePropriety": "Parccelle",
             "price": 50000
         }
+
     ]
 }
