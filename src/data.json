@@ -98,6 +98,38 @@
             "Commone":"Lingwala",
             "typePropriety": "Parccelle",
             "price": 50000
+        },
+        {
+            "id":5,
+            "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
+            "city":"Kinshasa",
+            "Commone":"Lingwala",
+            "typePropriety": "Parccelle",
+            "price": 50000
+        },
+        {
+            "id":6,
+            "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
+            "city":"Kinshasa",
+            "Commone":"Lingwala",
+            "typePropriety": "Parccelle",
+            "price": 50000
+        },
+        {
+            "id":7,
+            "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
+            "city":"Kinshasa",
+            "Commone":"Lingwala",
+            "typePropriety": "Parccelle",
+            "price": 50000
+        },
+        {
+            "id":8,
+            "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
+            "city":"Kinshasa",
+            "Commone":"Lingwala",
+            "typePropriety": "Parccelle",
+            "price": 50000
         }
 
     ]

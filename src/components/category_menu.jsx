@@ -7,7 +7,7 @@ const CategoryMenu = () =>{
                 <NavLink to="/all_proprety"><li>Tout</li></NavLink>
                 <NavLink to="/popular_proprety"><li>Populaires</li></NavLink>
                 <NavLink to="/recommended_proprety"><li>Récommandées</li></NavLink>
-                <NavLink to="/neard_proprety"><li>Près de chez vous</li></NavLink>
+                <NavLink to="/neard_you"><li>Près de chez vous</li></NavLink>
             </ul>
         </div>
     )

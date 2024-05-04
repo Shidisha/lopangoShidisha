@@ -5,10 +5,11 @@ import SectionHero from '../../components/section_hero'
 import SectionSearch from '../../components/section_search'
 import SectionHeart from '../../components/section_Heart'
 import SectionCategory from '../../components/section_category'
+import Footer from '../../components/footer'
 
 const Home = () =>{
     return (
-        <div className=''>  
+        <div>  
               <Header/>
                <main className="flex  gap-12 py-4 pl-12 pr-12">
                         <Sidebar/>
@@ -19,6 +20,7 @@ const Home = () =>{
                         <SectionCategory/>
                     </section>
              </main>
+             <Footer/>
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import data from '../data.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFaceLaugh } from '@fortawesome/free-solid-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faUpload } from '@fortawesome/free-solid-svg-icons'
 
 const SectionHero = () => {
     return(
@@ -10,11 +11,14 @@ const SectionHero = () => {
                     <h1 className='text-1xl pl-10 pr-10 font-extrabold'>Chaque porte ouverte est une opportinuté, <span className=' text-[#FF8686]'>voici celle qui mène à votre propriété de reve</span></h1>
                 </div>
                 <div className='flex items-center gap-[40px]'>
-                    <button className='flex items-center bg-[#FF7878] rounded-full px-2 py-2 text-white'>
-                        <FontAwesomeIcon icon={faFaceLaugh}/>
+                    <button className='flex items-center bg-[#FF7878] rounded-full px-2 py-2 text-white gap-1'>
+                        <FontAwesomeIcon icon={faPhone}/>
                         <p>Contacter un agent</p>
                     </button>
-                    <button className='border border-black rounded-full px-1 py-2'>Publier une propriété</button>
+                    <button className=' flex items-center border border-black rounded-full px-1 py-2 gap-1'>
+                        <FontAwesomeIcon icon={faUpload}/>
+                        <p>Publier une propriété</p>
+                    </button>
                 </div>
             </div>
             <div className=' pr-8 py-8'>
