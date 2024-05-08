@@ -7,8 +7,8 @@ const SelectPrice = () =>{
     };
     return(
         <>
-            <select className="border rounded-full py-1 pl-4 pr-4 pb-1" value={selectOption} onChange={handleSelectChange}>
-                <option value="">Prix</option>
+            <select className="border w-28 rounded-full py-1 pl-4 pr-4 pb-1" value={selectOption} onChange={handleSelectChange}>
+                <option>Prix</option>
                 <option value="option1">$50</option>
                 <option value="option2">$60</option>
                 <option value="option3">$80</option>

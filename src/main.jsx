@@ -13,8 +13,11 @@ import AllProprety from './components/all_proprety.jsx'
 import PopularProrety from './components/popular_prorety.jsx'
 import RecommendedProprety from './components/recommended_proprety.jsx'
 import NeardYou from './components/neard_you.jsx'
+import Authentification from './pages/public/auth/authentification.jsx'
+import LoginPage from './pages/public/auth/loginPage.jsx'
 
 const router = createBrowserRouter([
+  
   {
     path: '/',
     element: <App/>,
@@ -63,7 +66,21 @@ const router = createBrowserRouter([
       }
       
     ]
-  }
+  },
+  {
+    path: '/',
+    element: <Authentification/>,
+    children: [
+      {
+        path:'/loginPage',
+        element:<LoginPage/>,
+      },
+      {
+        path:'/signupPage',
+        element:<LoginPage/>,
+      }
+    ]
+},
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
